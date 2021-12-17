@@ -1,0 +1,22 @@
+  { "key": "ctrl+shift+down", "command": "workbench.action.terminal.focus"},
+  { "key": "ctrl+shift+up", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+  {
+    "key": "cmd+up",
+    "command": "cursorMove",
+    "args": {
+        "to": "up",
+        "by": "line",
+        "value": 10
+    },
+    "when": "editorTextFocus"
+},
+{
+    "key": "cmd+down",
+    "command": "cursorMove",
+    "args": {
+        "to": "down",
+        "by": "line",
+        "value": 10
+    },
+    "when": "editorTextFocus"
+}
